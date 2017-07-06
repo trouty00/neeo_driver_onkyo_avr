@@ -1,0 +1,30 @@
+{
+  "name": "neeo_driver_onkyo_avr",
+  "version": "0.0.1",
+  "description": "This app brings NEEO and ONKYO AVR's together",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trouty00/neeo_driver_onkyo_avr.git"
+  },
+  "keywords": [
+    "neeo",
+    "onkyo"
+  ],
+  "author": "Stuart Trout",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trouty00/neeo_driver_onkyo_avr/issues"
+  },
+  "homepage": "https://github.com/trouty00/neeo_driver_onkyo_avr#readme",
+  "dependencies": {
+    "neeo-sdk": "^0.37.2",
+    "onkyo.js": "^0.3.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
