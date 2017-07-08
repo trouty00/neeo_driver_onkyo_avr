@@ -32,7 +32,7 @@ const onkyo509= neeoapi.buildDevice('NR-509')
   .addButton({ name: 'VOLUME DOWN', label: 'VOL -' }, controller.button)	
  
 
-    .addButtonHander(controller.onkyo1ButtonPressed);
+    .addButtonHander(controller.onkyo509ButtonPressed);
 
 function startSdkExample(brain) {
   console.log('- Start server');
